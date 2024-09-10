@@ -5,7 +5,6 @@ def input_data():
     return input("입력: ")
 
 def main():
-    print("안녕")
     data = input_data()
     
     if type(data) == str:
